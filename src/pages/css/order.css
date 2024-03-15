@@ -1,0 +1,234 @@
+.contenr{
+    width: 100%;
+    height: 110vh;
+}
+
+
+.text_center{
+    display: flex;
+    width: 100%;
+    height: 40%;
+
+}
+
+.center_img{
+    display: flex;
+    width: 40%;
+    height: 100%;
+}
+
+.center_img>img{
+    border-radius: 10px;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeInUp 1.5s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+
+
+
+.center_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+
+}
+
+.center_text>h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 23px;
+    margin-left: 10px;
+    color: rgb(139, 103, 37);
+    transform: translateY(20px);
+    animation: fadeInDown 1.5s ease-out forwards 0.5s;
+    opacity: 0;
+}
+
+@keyframes fadeInDown {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+.contenr>h1{
+    margin-left:40%;
+    margin-top: 50px;
+    color: rgb(209, 20, 20);
+    transform: translateY(20px);
+    animation: fadeInDown 1.5s ease-out forwards 0.5s;
+    opacity: 0;
+}
+
+
+
+.teachers{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+.img_teacher{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+}
+.img_teacher>img{
+    border-radius: 10px;
+    width:350px ;
+    height: 350px;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeInUp 1.5s ease-out forwards;
+}
+
+.img1>img{
+    border-radius: 10px;
+    width:350px ;
+    height: 350px;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeInUp 1.5s ease-out forwards;
+}
+
+
+.img2>img{
+    border-radius: 10px;
+    width:350px ;
+    height: 350px;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeInUp 1.5s ease-out forwards;
+}
+
+
+
+.img3>img{
+    border-radius: 10px;
+    width:350px ;
+    height: 350px;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeInUp 1.5s ease-out forwards;
+}
+
+
+
+
+
+
+
+/* Mobile Sayiti responsev */
+
+
+
+
+
+
+
+
+@media screen  and (max-width:800px) {
+   .text_center{
+    flex-direction: column;
+   }
+
+   .center_img{
+    width: 100%;
+   }
+
+   .center_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 10px;
+    width: 100%;
+    margin-top: 50px;
+    height: 200px;
+    overflow-x: hidden;
+   }
+
+
+   .center_text::-webkit-scrollbar{
+    display: none;
+   }
+
+
+   .text{
+    font-size: 10px;
+   }
+
+   .center_text>h3{
+    font-size: 10px;
+   }
+
+   .contenr>h1{
+        margin-top: 40px;
+        width: 100%;
+        font-size: 25px;
+        margin-left: 70px;
+        color: red;
+   }
+   .contenr{
+    height: 150%;
+    flex-direction: column;
+   }
+
+
+.img_teacher{
+    display: flex;
+    flex-direction: column;
+}
+
+   .img_teacher>img{
+    width: 100%;
+   }
+
+   .img1>img{
+    width: 100%;
+   }
+   .img2>img{
+    width: 100%;
+   }
+   .img3>img{
+    width: 100%;
+   }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1020px) {
+    .center_text>h3{
+        font-size: 20px;
+    }
+}
+
