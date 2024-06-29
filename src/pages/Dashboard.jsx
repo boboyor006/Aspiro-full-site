@@ -56,7 +56,7 @@ const Dashboard = () => {
                 </div>
             </DashboardWrapperMain>
             <DashboardWrapperRight>
-                <div className="title mb">Statik ma'lumotlar </div>
+                <div className="title mb"> Ma'lumotlar </div>
                 <div className="mb">
                     <OverallList />
                 </div>
@@ -123,6 +123,11 @@ const RevenueByMonthsChart = () => {
             <div>
                 <Bar options={chartOptions} data={chartData} height={`300px`} />
             </div>
+            <br />
+            <div className="dirktor">
+                
+            </div>
         </>
+ 
     )
 }

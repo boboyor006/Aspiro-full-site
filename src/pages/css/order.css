@@ -1,6 +1,6 @@
 .contenr{
     width: 100%;
-    height: 110vh;
+    height: 120vh;
 }
 
 
@@ -135,6 +135,10 @@
 
 
 
+.vites{
+    width: 500px;
+}
+
 
 
 
@@ -145,12 +149,95 @@
 
 
 
+@media screen  and (max-width:1460px) {
+    .text{
+        font-size: 15px;
+    }
+}
+
+.contenr{
+    height: 200%;
+}
+
+
+.accordion {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* Style for accordion items */
+.accordion-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden; /* Hide overflowing content */
+}
+
+/* Style for accordion title (header) */
+.accordion-title {
+    background-color: #f0f0f0;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+/* Style for active accordion title */
+.accordion-title.active {
+    background-color: #ccc; /* Change background color when active */
+}
+
+/* Style for accordion content (body) - initially hidden */
+.accordion-content {
+    padding: 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease; /* Smooth transition for max-height */
+}
+
+
+
+.Liders{
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+
+.imgss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+
+.imgss>img{
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    box-shadow:0px 0px 50px 20px orange;
+
+}
+
+.liders_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+
 
 
 @media screen  and (max-width:800px) {
    .text_center{
     flex-direction: column;
    }
+
+
+ 
 
    .center_img{
     width: 100%;
@@ -214,6 +301,27 @@
     width: 100%;
    }
 
+   .Liders{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+   }
+   .imgss{
+    width: 100%;
+    height: 50%;
+   }
+   .imgss>img{
+    box-shadow:0px 0px 50px 10px orange;
+   }
+
+   .liders_text{
+    width: 100%;
+    height: 50%;
+    font-size: 15px;
+    margin-top: 20px;
+   }
 
 }
 
@@ -226,7 +334,9 @@
 
 
 
-@media screen and (max-width:1020px) {
+
+
+@media screen and (max-width:1400px) {
     .center_text>h3{
         font-size: 20px;
     }

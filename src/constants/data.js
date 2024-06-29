@@ -8,32 +8,32 @@ const data = {
     summary: [
         {
             title: "O'quvchilar soni ",
-            subtitle: 'statiklari',
+            subtitle: 'Statistik',
             value: '500+',
             percent: 70
         },
         {
-            title: 'Yonalishlar ',
-            subtitle:"Muttaxaslikga ega bo'lgan ustozlar",
+            title: "Yo'nalishlar ",
+            subtitle:"Mutaxassis ega bo'lgan ustozlar",
             value: '15+',
             percent: 49
         },
         {
             title: 'Kurslar ',
-            subtitle: 'kurslarimizni narxi aksiyada ',
+            subtitle: 'kurslarimiz narxi aksiyada ',
             value: '20%',
             percent: 20
         },
         {
-            title: 'Oquvhcilar ishga kirish',
-            subtitle: "Aspiro o'quv markazini yo'nalishlari",
+            title: "O'quvchilarning oliy ta'limga qamrovi",
+            subtitle: "Aspiro o'quv markazi yo'nalishlari",
             value: '20+',
             percent: 55
         }
     ],
     revenueSummary: {
         title: 'Kursimiz narxi',
-        value: '500 ming',
+        value: '450 ming',
         chartData: {
             labels: ['May', 'Jun', 'July', 'Aug', 'May', 'Jun', 'July', 'Aug'],
             data: [300, 300, 280, 380, 200, 300, 280, 350]
@@ -41,8 +41,8 @@ const data = {
     },
     overall: [
         {
-            value: '100+',
-            title: "Ma'lumotlarimiz" 
+            value: 'TEST KUNLARI',
+            title: "Markazimizda har ikki haftada bir marta (yakshanba kuni) BMBA naumunasidagi 5 blokli testlar o'tkaziladi" 
         },
         {
             value: '500+',
@@ -53,7 +53,7 @@ const data = {
             title: "Yo'nalishlar"
         },
         {
-            value: '500ming',
+            value: '450ming',
             title: 'Maksimal kursimiz narxi'
         }
     ],

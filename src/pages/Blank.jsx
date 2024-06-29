@@ -32,7 +32,7 @@ const Blank = () => {
                 </div>
 
                 <div className="caruselss">
-                 <img src={Avat3} alt="" />
+                <img src={Avat3} alt="" />
                 </div>
 
                 <div className="caruselss">
@@ -51,6 +51,11 @@ const Blank = () => {
                 <img src={Avat7} alt="" />
                 </div>
             </div>
+            <div className="caruss">
+                <img src={Avat4} alt="" />
+                <img src={Avat3} alt="" />
+                </div>
+
         </div>
     )
 }
